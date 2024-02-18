@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); 
+
+* 
+{
+    margin: 0; 
+    padding: 0; 
+} 
+
+body
+{
+    background-color: rgb(31, 32, 33); 
+}
+
+.picx
+{
+    margin-top: 10vh; 
+    border-radius: 500px;
+}
+#owner
+{
+    font-family:'quicksand'; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+} 
+
+.u 
+{
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 2vw;
+} 
+
+.hada 
+{
+    color: aliceblue; 
+    margin-left: 2vh; 
+    font-size: small;
+} 
+
+.halo 
+{
+    height: 5vw;  
+    width: 35vw; 
+    border-radius: 10px;  
+    border-style: none; 
+    background-color: #313131;  
+    margin-top: 2vw;
+} 
+
+input::placeholder
+{
+    margin-left: 60%; 
+} 
+
+.prblm 
+{
+    
+    height: 5vw;  
+    width: 35vw; 
+    border-radius: 10px;  
+    border-style: none; 
+    background-color: #4C73FF;  
+    margin-top: 4vw; 
+    color: white;
+}
